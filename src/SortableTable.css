@@ -1,0 +1,29 @@
+/* src/SortableTable.css */
+.sortable-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.sortable-table th,
+.sortable-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sortable-table th {
+  cursor: pointer;
+  background-color: #f2f2f2;
+}
+
+.sortable-table th:hover {
+  background-color: #ddd;
+}
+
+.sortable-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sortable-table tr:hover {
+  background-color: #f1f1f1;
+}
